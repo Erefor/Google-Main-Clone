@@ -1,0 +1,28 @@
+{
+  "name": "google-index-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "node-sass src/ -o src/ ",
+    "watch:css": "npm run build:css && node-sass src/ -o src/ -w -r",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "css-loader": "5.1.2",
+    "node-sass": "5.0.0",
+    "parcel-bundler": "^1.6.1",
+    "sass": "1.32.8",
+    "sass-loader": "11.0.1",
+    "scss-loader": "0.0.1",
+    "webpack": "5.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}

@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif, Helvetica;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  position: relative;
+}
+/* TODO HEADER */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+header ul img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+  margin: 0 1rem 0 1rem;
+  cursor: pointer;
+}
+header ul li a,
+header ul li {
+  color: black;
+  text-decoration: none;
+  margin: 0 0.5rem 0 0;
+}
+.dropDown button {
+  color: black;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: none;
+}
+.dropDown button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.dropDown {
+  position: relative;
+}
+.dropDownItems {
+  display: none;
+
+  width: 15rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 5px #0000002d;
+
+  position: absolute;
+  left: -11rem;
+}
+.dropDownItems ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+.dropDownItems ul li {
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.dropDownItems ul li a {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* TODO MAIN*/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+main input[type="text"] {
+  width: 30rem;
+  height: 2rem;
+  border-radius: 25px;
+  outline: none;
+  border: solid grey 1px;
+  margin: 5px 0 15px 0;
+  padding-left: 40px;
+  background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/search-2115245-1780538.png");
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-size: 1.5rem;
+}
+main input[type="text"]:hover {
+  box-shadow: 1px 1px 3px 3px #0000002d;
+}
+.btn {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.103);
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+
+  width: 10rem;
+  height: 2.5rem;
+}
+.btn:hover {
+  box-shadow: 1px 1px 4px 5px #0000002d;
+}
+/* TODO FOOTER*/
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.096);
+  width: 100%;
+  color: rgb(107, 107, 107);
+}
+.avisos {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+.avisos a {
+  text-decoration: unset;
+  color: rgb(107, 107, 107);
+  margin: 10px;
+  padding: 5px;
+}
