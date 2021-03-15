@@ -1,11 +1,10 @@
 body {
   background-color: white;
-  height: 100vh;
-  width: 100vw;
   font-family: Arial, sans-serif, Helvetica;
   padding: 0;
   margin: 0;
-
+  height: 805px;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,10 +17,12 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 3rem;
+
   width: 100%;
   position: absolute;
   top: 0;
+  margin: 0;
+  padding: 0;
 }
 header ul {
   display: flex;
@@ -131,6 +132,8 @@ footer {
   background-color: rgba(128, 128, 128, 0.096);
   width: 100%;
   color: rgb(107, 107, 107);
+  padding: 0;
+  margin: 0;
 }
 .avisos {
   display: flex;
