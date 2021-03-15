@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif, Helvetica;
   padding: 0;
   margin: 0;
-  height: 805px;
+  height: 100vh;
   width: auto;
   display: flex;
   justify-content: center;
